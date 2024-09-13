@@ -1,0 +1,8 @@
+node_modules/
+logs/*.log*
+test-reports/
+.nyc_output/
+.env*
+yarn.lock
+.history
+.idea

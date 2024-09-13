@@ -1,0 +1,49 @@
+extends:
+  - airbnb
+env:
+  commonjs: true
+  node: true
+  jest: true
+plugins:
+  - prettier
+parserOptions:
+  sourceType: module
+  ecmaVersion: 2022
+rules:
+  no-shadow: error
+  prettier/prettier: error
+  no-underscore-dangle: off
+  class-methods-use-this: off
+  arrow-body-style: off
+  no-unused-expressions: off
+  no-console: error
+  radix: off
+  arrow-parens: off
+  array-callback-return: off
+  comma-dangle: off
+  object-curly-newline: off
+  max-len:
+    - error
+    - code: 100
+      ignoreTemplateLiterals: true
+      ignoreStrings: true
+      ignoreUrls: true
+  import/no-dynamic-require: off
+  import/no-extraneous-dependencies: off
+  semi: off
+  no-await-in-loop: off
+  no-use-before-define: off
+  implicit-arrow-linebreak: off
+  function-paren-newline: off
+  operator-linebreak: off
+  no-restricted-syntax: off
+  no-plusplus: off
+  indent: off
+  generator-star-spacing:
+    - error
+    - before: false
+      after: true
+      anonymous: neither
+      method:
+        before: true
+        after: false
